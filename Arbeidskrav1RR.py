@@ -3,10 +3,11 @@
 Created on Sun Nov  3 14:17:29 2024
 
 @author: RuneRestad
+Arbeidskrav 1 på Py1010
 """
-
+print ("Arbeidskrav 1 for PY1010-1 24H Grunnleggende programmering med Python")
 # Kostnader for elbil vs bil med fossilt drivstoff
-
+print()
 # Antall kjørte km for 2025 er satt til 16 000 km
 km_2025 = 16000
 
@@ -27,10 +28,19 @@ Bomavgift_F = 0.3*km_2025 # kr pr år
 
 Total_kostnad_FBil = Forsikring_F + Trafikkforsikring_F + Drivstofforbruk_F + Bomavgift_F
 
+print("Forutsetninger:")
+print("Antatt km forventet for 2025: ", km_2025), print("og forventet KW gjennomsnittpris på 2kr/KW:") 
+print()
+print("Resultat:")
 print("Total kostnad for EL-Bil:", Total_kostnad_ELBil)
 print("Total kostnad for bil med fossilt drivstoff:", Total_kostnad_FBil)
+print()
 
 
-print(f"Det koster {Total_kostnad_FBil - Total_kostnad_ELBil} mer å ha fossilt drivstoff pr år enn El-bil")
-
+print(f"Det koster {Total_kostnad_FBil - Total_kostnad_ELBil} kr 
       
+      mer å ha fossilt drivstoff pr år enn El-bil")
+
+#Takk for meg.
+print()
+print("Rune Restad")
